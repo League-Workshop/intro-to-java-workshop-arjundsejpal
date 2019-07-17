@@ -23,7 +23,7 @@ monkamachine.setRandomPenColor();
 		// 5. Make a second variable for the angle you want the robot to turn. Hint: you can divide in Java using "/". Can’t test until step 6
 int angle = 360/sides;
 		// 7. Use a for loop to repeat steps #2 to #11, 200 times. When this is done you should see a pentagon
-for(int i =0; i<200;i++) {
+for(int i =0; i<500;i++) {
 			// 2. Move the robot 200 pixels
 	monkamachine.move(i);
 			// 10. Change the previous line of code to make the robot move "i" pixels instead of 200 
